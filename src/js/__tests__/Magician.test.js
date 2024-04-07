@@ -8,7 +8,8 @@ test('Правильно создаётся объект Magician', () => {
         health: 100, 
         level: 1, 
         name: 'Merlin', 
-        type: 'Magician'
+        type: 'Magician',
+        maxHealth: 100
     };
 
     expect(magician).toEqual(correct);

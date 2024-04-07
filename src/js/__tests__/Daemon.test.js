@@ -8,7 +8,8 @@ test('Правильно создаётся объект Daemon', () => {
         health: 100, 
         level: 1, 
         name: 'Specter', 
-        type: 'Daemon'
+        type: 'Daemon',
+        maxHealth: 100
     };
 
     expect(daemon).toEqual(correct);

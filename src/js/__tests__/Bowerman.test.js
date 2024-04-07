@@ -8,7 +8,9 @@ test('Правильно создаётся объект Bowerman', () => {
         health: 100, 
         level: 1, 
         name: 'Bowman', 
-        type: 'Bowman'
+        type: 'Bowman',
+        maxHealth: 100
+
     };
 
     expect(bowerman).toEqual(correct);

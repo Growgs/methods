@@ -8,7 +8,8 @@ test('Правильно создаётся объект Zombie', () => {
         health: 100, 
         level: 1, 
         name: 'Rotten', 
-        type: 'Zombie'
+        type: 'Zombie',
+        maxHealth: 100
     };
 
     expect(zombie).toEqual(correct);

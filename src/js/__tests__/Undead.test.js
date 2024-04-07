@@ -8,7 +8,8 @@ test('Правильно создаётся объект Undead', () => {
         health: 100, 
         level: 1, 
         name: 'Ghoul', 
-        type: 'Undead'
+        type: 'Undead',
+        maxHealth: 100
     };
 
     expect(undead).toEqual(correct);
